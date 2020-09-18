@@ -26,11 +26,13 @@ for(int i=0;i<1;i++)
 	int age = in.nextInt(); 
 	System.out.println("Enter Mobile no");
 	long mobileNo = in.nextLong();
+	System.out.println("Enter salaries");
+	float salary = in.nextFloat();
     
 	
 	
 	e.create();
-	s.tax();
+	s.tax(salary);
 	System.out.println("Name: "+name); 
     System.out.println("Gender: "+gender); 
     System.out.println("Age: "+age); 

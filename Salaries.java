@@ -2,15 +2,14 @@ package main_package;
 import java.util.*;
 
 class Salaries extends Emp{
-float salary;
 double taxcut;
-public void tax() {
+public void tax(float salary) {
 	if (salary>70000) {
-		taxcut= 0.14*salary;
+		taxcut= salary*0.14;
 		System.out.println("taxcut"+taxcut);
 	}
 	else if(salary<=70000) {
-		taxcut= 0.09*salary;
+		taxcut= salary*0.09;
 		System.out.println("taxcut"+taxcut);
 	}
 }
