@@ -42,7 +42,7 @@ public static void main(String[] args)
 	System.out.println("mobile no"+mobile);
 	System.out.println("salary"+salaries);
 	System.out.println("emp no"+e.empno);
-	System.out.println("ssn"+e.ssn);/////
+	System.out.println("ssn"+e.ssn);
 	s.tax(salaries);
 	}
 	System.out.println("Mobile nos are");
