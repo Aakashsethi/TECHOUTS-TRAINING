@@ -1,1 +1,1 @@
-package ques4;
+package singleclas;
